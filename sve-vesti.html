@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- custom style -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>EuroAthlantic</title>
+  </head>
+  <body>
+    <!-- social icons stack  -->
+    <div class="social-icons d-none d-md-block">
+      <a href="#" target="_blank">
+        <img
+          src="./img/svg/side-facebook.svg"
+          alt="facebook"
+          class="img-fluid mb-3"
+        />
+      </a>
+      <a href="#" target="_blank">
+        <img
+          src="./img/svg/side-twitter.svg"
+          alt="twitter"
+          class="img-fluid mb-3"
+        />
+      </a>
+      <a href="#" target="_blank">
+        <img
+          src="./img/svg/side-instagram.svg"
+          alt="instagram"
+          class="img-fluid mb-3"
+        />
+      </a>
+      <a href="#" target="_blank">
+        <img
+          src="./img/svg/side-youtube.svg"
+          alt="youtube"
+          class="img-fluid mb-3"
+        />
+      </a>
+    </div>
+    <!-- end social icons stack  -->
+    <!-- top bar -->
+    <div class="top-bar p-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 text-white text-center text-md-left">
+            <img src="./img/svg/phone.svg" alt="phone" class="img-fluid mr-1" />
+            +381 66 123 4567
+          </div>
+
+          <div class="col-md-4 text-white text-center">
+            <img src="./img/svg/email.svg" alt="email" class="img-fluid mr-1" />
+            euroathlantic@email.com
+          </div>
+          <div class="col-md-4 text-white text-center text-md-right">
+            <a href="">
+              <img
+                src="./img/svg/facebook.svg"
+                alt="facebook"
+                class="img-fluid mr-2"
+                style="width: 20px"
+              />
+            </a>
+            <a href="">
+              <img
+                src="./img/svg/instagram.svg"
+                alt="facebook"
+                class="img-fluid mr-2"
+                style="width: 20px"
+              />
+            </a>
+            <a href="">
+              <img
+                src="./img/svg/twitter.svg"
+                alt="facebook"
+                class="img-fluid mr-2"
+                style="width: 20px"
+              />
+            </a>
+            <a href="">
+              <img
+                src="./img/svg/youtube.svg"
+                alt="facebook"
+                class="img-fluid mr-2"
+                style="width: 20px"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end top bar -->
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
+      <div class="container p-0">
+        <a class="navbar-brand" href="index.html">LOGO</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar"
+          aria-controls="navbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item mb-2 mb-md-0 mr-3">
+              <a class="nav-link" href="index.html">Početna</a>
+            </li>
+            <li class="nav-item dropdown mb-2 mb-md-0 mr-3">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Vesti
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item active mb-2" href="sve-vesti.html">
+                  Sve vesti
+                </a>
+                <a class="dropdown-item mb-2" href="publikacije.html">
+                  Publikacije
+                </a>
+                <a class="dropdown-item mb-2" href="analize.html">Analize</a>
+                <a class="dropdown-item mb-2" href="projekti.html">Projekti</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item mb-2" href="dogadjaji.html">Događaji</a>
+                <a class="dropdown-item mb-2" href="najave.html">Najave</a>
+              </div>
+            </li>
+            <li class="nav-item mb-2 mb-md-0 mr-3">
+              <a class="nav-link" href="video.html">Video</a>
+            </li>
+            <li class="nav-item mb-2 mb-md-0 mr-3">
+              <a class="nav-link" href="kontakt.html">Kontakt</a>
+            </li>
+            <li class="nav-item mb-2 mb-md-0 mr-3">
+              <a class="nav-link" href="o-nama.html">O nama</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2 w-75"
+              type="search"
+              placeholder="Pretraga..."
+              aria-label="Search"
+            />
+            <button class="search-btn my-2 my-sm-0" type="submit">
+              <img
+                src="./img/svg/magnifier.svg"
+                alt="search"
+                class="img-fluid"
+              />
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- news list section -->
+    <section class="news-list">
+      <div class="container">
+        <div class="row">
+          <!-- news list -->
+          <div class="col-md-9">
+            <div class="col p-0">
+              <h3 class="section-title">Vesti</h3>
+              <hr />
+            </div>
+            <!-- news item -->
+            <div class="row mt-4">
+              <div class="col-md-5">
+                <img src="./img/post/food.jpg" alt="" class="img-fluid" />
+              </div>
+
+              <div class="col-md-7 mt-4 mt-md-0">
+                <a href="blog-post.html">
+                  <h4 class="news-post-title font-weight-bold">
+                    Magna aliqua ut enim ad minim veniam quis nostrud quis
+                    xercitation ullamco.
+                  </h4>
+                </a>
+                <small class="text-muted">John Doe - 22. mart 2021</small>
+                <p class="m-0 mt-3">
+                  Amet consectetur adipisicing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                  veniam, quis nostrud exercitation.
+                </p>
+              </div>
+            </div>
+            <!-- end news item -->
+            <!-- news item -->
+            <div class="row mt-4">
+              <div class="col-md-5">
+                <img src="./img/post/nature.jpg" alt="" class="img-fluid" />
+              </div>
+
+              <div class="col-md-7 mt-4 mt-md-0">
+                <a href="">
+                  <h4 class="news-post-title font-weight-bold">
+                    Magna aliqua ut enim ad minim veniam quis nostrud quis
+                    xercitation ullamco.
+                  </h4>
+                </a>
+                <small class="text-muted">John Doe - 22. mart 2021</small>
+                <p class="m-0 mt-3">
+                  Amet consectetur adipisicing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                  veniam, quis nostrud exercitation.
+                </p>
+              </div>
+            </div>
+            <!-- end news item -->
+            <!-- news item -->
+            <div class="row mt-4">
+              <div class="col-md-5">
+                <img src="./img/post/tattoo.jpg" alt="" class="img-fluid" />
+              </div>
+
+              <div class="col-md-7 mt-4 mt-md-0">
+                <a href="">
+                  <h4 class="news-post-title font-weight-bold">
+                    Magna aliqua ut enim ad minim veniam quis nostrud quis
+                    xercitation ullamco.
+                  </h4>
+                </a>
+                <small class="text-muted">John Doe - 22. mart 2021</small>
+                <p class="m-0 mt-3">
+                  Amet consectetur adipisicing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                  veniam, quis nostrud exercitation.
+                </p>
+              </div>
+            </div>
+            <!-- end news item -->
+            <!-- news item -->
+            <div class="row mt-4">
+              <div class="col-md-5">
+                <img src="./img/post/walk.jpg" alt="" class="img-fluid" />
+              </div>
+
+              <div class="col-md-7 mt-4 mt-md-0">
+                <a href="">
+                  <h4 class="news-post-title font-weight-bold">
+                    Magna aliqua ut enim ad minim veniam quis nostrud quis
+                    xercitation ullamco.
+                  </h4>
+                </a>
+                <small class="text-muted">John Doe - 22. mart 2021</small>
+                <p class="m-0 mt-3">
+                  Amet consectetur adipisicing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                  veniam, quis nostrud exercitation.
+                </p>
+              </div>
+            </div>
+            <!-- end news item -->
+            <!-- news item -->
+            <div class="row mt-4">
+              <div class="col-md-5">
+                <img src="./img/post/xps.jpg" alt="" class="img-fluid" />
+              </div>
+
+              <div class="col-md-7 mt-4 mt-md-0">
+                <a href="">
+                  <h4 class="news-post-title font-weight-bold">
+                    Magna aliqua ut enim ad minim veniam quis nostrud quis
+                    xercitation ullamco.
+                  </h4>
+                </a>
+                <small class="text-muted">John Doe - 22. mart 2021</small>
+                <p class="m-0 mt-3">
+                  Amet consectetur adipisicing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                  veniam, quis nostrud exercitation.
+                </p>
+              </div>
+            </div>
+            <!-- end news item -->
+
+            <!-- pagination -->
+            <section class="pagination">
+              <nav aria-label="Page navigation">
+                <ul class="pagination">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                  </li>
+                  <li class="page-item active">
+                    <a class="page-link" href="#">1</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </section>
+            <!-- end pagination -->
+          </div>
+          <!-- end news list -->
+          <!-- sidebar -->
+          <div class="side-bar col-md-3">
+            <!-- publikacije -->
+            <div class="mb-4">
+              <div class="col p-0">
+                <h3 class="section-title">Publikacije</h3>
+                <hr />
+              </div>
+              <a href="">
+                <h6 class="mb-3">
+                  Magna aliqua ut enim ad minim veniam quis nostrud quis
+                  xercitation ullamco.
+                </h6>
+              </a>
+              <a href="">
+                <h6 class="mb-3">
+                  Magna aliqua ut enim ad minim veniam quis nostrud quis
+                  xercitation ullamco.
+                </h6>
+              </a>
+              <a href="">
+                <h6 class="mb-3">
+                  Magna aliqua ut enim ad minim veniam quis nostrud quis
+                  xercitation ullamco.
+                </h6>
+              </a>
+              <a href="">
+                <h6 class="mb-3">
+                  Magna aliqua ut enim ad minim veniam quis nostrud quis
+                  xercitation ullamco.
+                </h6>
+              </a>
+              <a href="">
+                <h6 class="mb-3">
+                  Magna aliqua ut enim ad minim veniam quis nostrud quis
+                  xercitation ullamco.
+                </h6>
+              </a>
+            </div>
+            <!-- end publikacije -->
+            <!-- popularne vesti -->
+            <div class="col p-0">
+              <h3 class="section-title">Popularno</h3>
+              <hr />
+            </div>
+            <!-- popular item -->
+            <div class="row pb-3">
+              <div class="col-5">
+                <img src="./img/post/food.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="col-7 p-0">
+                <a href="">
+                  <h6>
+                    Magna aliqua ut enim ad minim veniam quis nostrud quis
+                    xercitation ullamco.
+                  </h6>
+                </a>
+                <small class="text-muted">John Doe - 22. mart 2021</small>
+              </div>
+            </div>
+            <!-- end popular item -->
+            <!-- popular item -->
+            <div class="row pb-3">
+              <div class="col-5">
+                <img src="./img/post/nature.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="col-7 p-0">
+                <a href="">
+                  <h6>
+                    Magna aliqua ut enim ad minim veniam quis nostrud quis
+                    xercitation ullamco.
+                  </h6>
+                </a>
+                <small class="text-muted">John Doe - 22. mart 2021</small>
+              </div>
+            </div>
+            <!-- end popular item -->
+            <!-- popular item -->
+            <div class="row pb-3">
+              <div class="col-5">
+                <img src="./img/post/tattoo.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="col-7 p-0">
+                <a href="">
+                  <h6>
+                    Magna aliqua ut enim ad minim veniam quis nostrud quis
+                    xercitation ullamco.
+                  </h6>
+                </a>
+                <small class="text-muted">John Doe - 22. mart 2021</small>
+              </div>
+            </div>
+            <!-- end popular item -->
+            <!-- popular item -->
+            <div class="row pb-3">
+              <div class="col-5">
+                <img src="./img/post/walk.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="col-7 p-0">
+                <a href="">
+                  <h6>
+                    Magna aliqua ut enim ad minim veniam quis nostrud quis
+                    xercitation ullamco.
+                  </h6>
+                </a>
+                <small class="text-muted">John Doe - 22. mart 2021</small>
+              </div>
+            </div>
+            <!-- end popular item -->
+            <!-- popular item -->
+            <div class="row pb-3">
+              <div class="col-5">
+                <img src="./img/post/xps.jpg" alt="" class="img-fluid" />
+              </div>
+              <div class="col-7 p-0">
+                <a href="">
+                  <h6>
+                    Magna aliqua ut enim ad minim veniam quis nostrud quis
+                    xercitation ullamco.
+                  </h6>
+                </a>
+                <small class="text-muted">John Doe - 22. mart 2021</small>
+              </div>
+            </div>
+            <!-- end popular item -->
+            <!-- end popularne vesti -->
+          </div>
+          <!-- end sidebar -->
+        </div>
+      </div>
+    </section>
+    <!-- end news list section -->
+
+    <!-- back to top arrow -->
+    <button class="scroll-to-top">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="34.707"
+        height="21.692"
+        viewBox="0 0 34.707 21.692"
+      >
+        <path
+          id="arrow-up"
+          d="M0,22.1l4.091,4.093L17.359,12.687,30.616,26.192,34.707,22.1,17.359,4.5Z"
+          transform="translate(0 -4.5)"
+          fill="#fff"
+        />
+      </svg>
+    </button>
+    <!-- end back to top arrow -->
+
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5 class="font-weight-bold mb-4">O nama</h5>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+            <div class="footer-social-links mt-4">
+              <a href="">
+                <img
+                  src="./img/svg/facebook.svg"
+                  alt="facebook"
+                  class="img-fluid mr-2"
+                />
+              </a>
+              <a href="">
+                <img
+                  src="./img/svg/instagram.svg"
+                  alt="instagram"
+                  class="img-fluid mr-2"
+                />
+              </a>
+              <a href="">
+                <img
+                  src="./img/svg/twitter.svg"
+                  alt="twitter"
+                  class="img-fluid mr-2"
+                />
+              </a>
+              <a href="">
+                <img
+                  src="./img/svg/youtube.svg"
+                  alt="youtube"
+                  class="img-fluid mr-2"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 mt-5 mt-md-0">
+            <h5 class="font-weight-bold mb-4">Brzi linkovi</h5>
+            <a href="news-list.html">
+              <p>Vesti</p>
+            </a>
+            <a href="publications.html">
+              <p>Publikacije</p>
+            </a>
+            <a href="video.html">
+              <p>Video</p>
+            </a>
+            <a href="contact.html">
+              <p>Kontakt</p>
+            </a>
+          </div>
+          <div class="col-md-4 mt-5 mt-md-0">
+            <h5 class="font-weight-bold mb-4">Poslednje vesti</h5>
+            <div class="mb-3">
+              <p class="footer-post-date m-0">22. Mart 2021</p>
+              <a href="#">
+                <h2 class="footer-post-title">
+                  After all is said and done, more is said than done
+                </h2>
+              </a>
+            </div>
+            <div class="mb-3">
+              <p class="footer-post-date m-0">22. Mart 2021</p>
+              <a href="#">
+                <h2 class="footer-post-title">
+                  After all is said and done, more is said than done
+                </h2>
+              </a>
+            </div>
+            <div class="mb-3">
+              <p class="footer-post-date m-0">22. Mart 2021</p>
+              <a href="#">
+                <h2 class="footer-post-title">
+                  After all is said and done, more is said than done
+                </h2>
+              </a>
+            </div>
+            <div class="mb-3">
+              <p class="footer-post-date m-0">22. Mart 2021</p>
+              <a href="#">
+                <h2 class="footer-post-title">
+                  After all is said and done, more is said than done
+                </h2>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer -->
+    <!-- footer bottom -->
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col text-white text-center">
+            <p class="m-0">
+              Izrada
+              <a href="#">{dev}@design</a>
+              | 2021.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end footer bottom -->
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
